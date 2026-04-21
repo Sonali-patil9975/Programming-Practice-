@@ -1,3 +1,10 @@
+
+/* Author: Sonali Patil
+   Date: 21-04-2026
+   Description: C program to swap two numbers using a temporary variable.
+
+
+*/
 #include<stdio.h>
 int main() {
     int a,b,temp;

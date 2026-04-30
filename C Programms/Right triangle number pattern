@@ -1,0 +1,22 @@
+/* Author: Sonali Patil
+   Date: 29-04-2026
+   Description: C program to print a right triangle number pattern.
+*/
+
+// this program prints a right triangle number pattern
+#include <stdio.h>
+
+int main() {
+    int i,j,n;
+    printf("Enter number of row:");
+    scanf("%d",&n);
+    for(i = 1; i <= n; i++){
+        
+        for ( j= 1;j <= i; j++){
+            
+            printf("%d" , j);
+        }
+        printf("\n");
+    }    
+    return 0;
+}

@@ -1,16 +1,14 @@
 /* Author: Sonali Patil
    Date: 29-04-2026
-   Description: C program to calculate factorial of a number.
-
-
+   Description: C program to calculate factorial of a number using a function.
 */
 
-// C program to calculate factorial of a number
+// Thisprogram to calculate factorial of a number using a function
 #include <stdio.h>
 int fact(int);//function declartion
 int main() {
     int result=1,num=0;//local scope
-    printf("Enter any number:");
+    printf("Enter a number:");
     scanf("%d",&num);
     result=fact(num);
     printf("factorial of %d is %d",num,result);

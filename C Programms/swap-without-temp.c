@@ -5,7 +5,7 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,temp;
+    int a,b;
     printf("Enter two numbers to swap");
     scanf("%d%d",&a,&b);
     printf("Before swapping a=%d b=%d",a,b);

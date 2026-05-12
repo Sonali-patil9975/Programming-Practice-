@@ -20,6 +20,6 @@ void display(char name[30],int roll_no,int std,char address[50])
 {
     printf("Name of student is %s",name);
     printf("roll no of student is %d\n",roll_no);
-    printf("std is %d/n",std);
+    printf("std is %d\n",std);
     printf("address is %s",address);
 }

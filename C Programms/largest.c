@@ -1,8 +1,6 @@
 /* author: Sonali Patil
    date:   24-04-2026
-   description:  program to find largest of three numbers
-
-
+   description: program to find largest of three numbers
 */
 // Online C compiler to run C program online
 #include <stdio.h>

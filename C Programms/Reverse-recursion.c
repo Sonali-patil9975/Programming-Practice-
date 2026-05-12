@@ -1,9 +1,8 @@
 /* Author: Sonali Patil
    Date: 29-04-2026
    Description: C program to reverse a number using recursion.
-
-
 */
+
 // Recursive function to reverse a number
 #include <stdio.h>
     int reverse (int n, int rev) {

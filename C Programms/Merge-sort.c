@@ -2,7 +2,7 @@
    Date: 05-05-2026
    Description: C program to sort an array using merge sort.
 */
-// Online C compiler to run C program online
+// This program implements the merge sort algorithm to sort an array of integers. The merge sort algorithm is a divide-and-conquer algorithm that divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. The merge function is used to merge the two halves. The main function initializes an array of integers, prints it before sorting, calls the merge_sort function to sort it, and then prints the sorted array.
 #include <stdio.h>
 #include <stdlib.h>
 // Merges two subarray of arr[]

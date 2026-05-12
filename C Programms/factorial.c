@@ -10,7 +10,7 @@ int main() {
     for (counter=1;counter<=num;counter++){
         fact=fact*counter;
     }
-    printf("factorial of%d= %d",num,fact);
+    printf("factorial of %d= %d",num,fact);
     
 
     return 0;

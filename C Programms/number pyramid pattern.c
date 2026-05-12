@@ -1,8 +1,6 @@
 /* Author: Sonali Patil
    Date: 29-04-2026
    Description: C program to print a number pyramid pattern.
-
-
 */
 
 // this program prints a number pyramid pattern

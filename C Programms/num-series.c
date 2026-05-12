@@ -5,7 +5,7 @@
 
 */
 
-// This programm print number series
+// This programm print series of number up to given limit
 #include <stdio.h>
 
 int main() {

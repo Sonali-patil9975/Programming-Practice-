@@ -3,7 +3,7 @@
    Description: C program to check if a number is a palindrome using recursion.
 */
 
-// 
+// this program to check if a number is a palindrome using recursion
 #include <stdio.h>
 
 int reverse (int n,int rev)

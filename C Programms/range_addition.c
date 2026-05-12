@@ -1,4 +1,10 @@
 // Online C compiler to run C program online
+/*
+    Author: Sonali Patil
+    date:25-04-2026
+    Description: This program calculates the sum of numbers within a given range.
+ 
+ */
 #include <stdio.h>
 
 int main() {

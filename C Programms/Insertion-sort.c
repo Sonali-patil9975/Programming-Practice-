@@ -2,6 +2,7 @@
    Date: 04-05-2026
    Description: C program to sort an array using insertion sort.
 */
+
 // this program to sort an array using insertion sort
 #include <stdio.h>
 #include<math.h>
@@ -24,16 +25,18 @@ arr [j+1] = key;
 
 int main() {
     int arr[]={12 , 11 , 13 , 5 , 6};
-    int N = sizeof(arr)/sizeof(arr [0]);
-    printf("unsort array:");
+    int N = sizeof(arr) / sizeof(arr [0]);
+    printf("unsort array: ");
     for (int i = 0 ; i < N; i++){
-        printf("%d" , arr [i]);
+        printf("%d " ,   arr [i]);
     }
     printf("\n");
-//calling insertion sort on array arr insertion sort arr[arr,N];
-printf("sorted array:");
+//calling insertion sort on array arr 
+insertion_sort(arr, N);
+
+printf("sorted array: ");
 for (int i = 0;i < N ; i++){
-    printf("%d" , arr [i]);
+    printf("%d  " , arr [i]);
 }
     printf("\n");
     return 0;

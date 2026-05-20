@@ -9,10 +9,13 @@
 
 int main() {
     bool value = true;
-    if (value )
-    printf("True");
-    else 
-    printf("False");
+    if (value) {
+        printf("Hello : True");
+    }
+    else {
+
+        printf("Hello : False");
+    }
 
     return 0;
 }

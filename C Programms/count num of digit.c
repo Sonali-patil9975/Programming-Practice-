@@ -2,8 +2,6 @@
    Date: 25-04-2026
    Description: This program calculates the count of digits in a given number.
 
-
-
 */
 // this program calculate count of digit
 #include <stdio.h>

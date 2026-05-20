@@ -13,7 +13,7 @@ int main(void) {
     
     
     printf("Enter array of intergers:");
-    for(i = 0; i < n; i++){
+    for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     printf("array befor sorting");

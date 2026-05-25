@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #define MAX_SIZE 100
-//definig the quue structure
+//definig the queue structure
 typedef struct
 {
     int items[MAX_SIZE];
@@ -85,6 +85,7 @@ int main() {
     
     enqueue(&q,20);
     printQueue(&q);
+
     //peek front element
     printf("front element:%d\n",peek(&q));
     //Dequeue an element

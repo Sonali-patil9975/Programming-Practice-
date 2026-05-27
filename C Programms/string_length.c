@@ -7,7 +7,6 @@
 int main() {
     int i = 0;
     char array[50] = {'0'};
-    char abc[10] = "abc";
     printf("Please enter name:");
     scanf("%s",array);
     while(array[i]!= '\0'){

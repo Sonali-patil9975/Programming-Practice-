@@ -3,7 +3,7 @@ date: 26 May 2026
 this program is to concatenate two strings without using library function.
 */
 
-// string concatination
+// this program concatenate two strings without using library function.
 #include <stdio.h>
 int string_length (char array[])
 {

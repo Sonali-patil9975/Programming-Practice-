@@ -19,6 +19,7 @@ int main() {
     printf("min = %d\n",min (a,b,c));
     return 0;
 }
+//Funtion to find average
 int average (int a, int b, int c)
 {
     return (a+b+c)/3;

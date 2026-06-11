@@ -1,9 +1,8 @@
 /* Author: Sonali Patil
    Date: 10 june 2026
    Description: This program is to print the multiplication table of a given number.
-   This program is to print the multiplication table of a given number.
-
 */
+// This program is to print the multiplication table of a given number.
 #include <stdio.h>
 // Function Declaration
 void print_table(int);

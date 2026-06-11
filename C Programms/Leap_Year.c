@@ -23,5 +23,4 @@ void Leap_Year(int Year)
     else
     printf("Year is not Leap Year");
 
-    
 }

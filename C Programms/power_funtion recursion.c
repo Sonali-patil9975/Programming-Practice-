@@ -11,7 +11,7 @@ int main(){
     int num,pow,result;
     printf("Enter num and power:");
     scanf("%d %d",&num,&pow);
-    result=power(num,pow);
+    result = power(num,pow);
     printf("Result is %d",result);
     return 0;
     }

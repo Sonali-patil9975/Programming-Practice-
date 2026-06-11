@@ -3,7 +3,7 @@
    Discription: This program calculates the power of a number using function.
 */
 
-// Thid program is to find the power of a number using function in C language.
+// This program is to find the power of a number using function in C language.
 #include <stdio.h>
 // Funtion Defination
 int power (int,int);
@@ -13,15 +13,15 @@ int main(){
     printf("Enter Number and Power:");
     scanf("%d %d",&num,&pow);
     result=power(num ,pow);
-    printf("result is %d",result);
+    printf("Power of number is %d",result);
     return 0;
 }
 //Funtion Declartion
 int power(int num, int pow)
 {
-    int i, result=1;
-    for(i=1;i<=pow;i++){
-        result=result*num;
+    int i, result = 1;
+    for(i = 1; i <= pow; i++){
+        result = result * num;
     }
     return result;
 }

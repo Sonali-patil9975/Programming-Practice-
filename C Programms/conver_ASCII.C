@@ -9,6 +9,7 @@ int main()
 char c;
 printf("Please enter letter:");
 scanf("%c",&c);
+
 if(c <= 'Z' && c >= 'A')
 printf("%c",c + 32);
 else

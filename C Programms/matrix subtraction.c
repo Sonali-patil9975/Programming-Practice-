@@ -1,3 +1,7 @@
+/* Author: Sonali Patil
+   Date: 17 June 2026
+   Description: This program is used to subtract two matrices of size 2x2.
+*/
 // This program is used to subtract two matrices of size 2x2
 #include<stdio.h>
 int main()

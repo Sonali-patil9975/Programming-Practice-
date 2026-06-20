@@ -7,8 +7,8 @@
 int main()
 {
     int i,j,k;
-    int row1 =2,column1 = 2;
-    int row2=2, column2 =2;
+    int row1 = 2,column1 = 2;
+    int row2 = 2, column2 = 2;
     int matrix1[5][5],matrix2[5][5];
     //Read matrix1
     printf("Please enter Matrix 1\n");
@@ -35,7 +35,11 @@ int main()
     {
         for(j = 0; j < column2; j++)
         {
-            matrix3[i][j] = matrix3[i][j]+(matrix1[i][k] * matrix2[k][j]);
+            matrix3[i][j] = 0;
+            for(k = 0; k < column1; k++)
+            {
+                matrix3[i][j] = matrix3[i][j]+(matrix1[i][k] * matrix2[k][j]);
+            }
         }
     }
     // print

@@ -1,3 +1,9 @@
+
+/* Author: Sonali Patil
+   Date: 19-06-2026
+   Description: This program reads data from a file named "contact.txt" using the C17 language standard.
+*/
+// This program reads data from a file named "contact.txt" using the C17 language standard.
 #include<stdio.h>
 int main()
 {

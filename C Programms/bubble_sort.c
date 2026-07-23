@@ -12,14 +12,16 @@ int main(void) {
     int arr[50];
     
     
+    printf("Enter the number of elements:");
+    scanf("%d",&n); 
     printf("Enter array of intergers:");
     for(i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+        scanf("%d", &arr[i]);
     }
     printf("array befor sorting");
     print_array(arr,n);
-    printf("array after sorting");
     bubble_sort(arr,n);
+    printf("array after sorting");
     print_array(arr,n);
     return 0;
 }
@@ -31,12 +33,15 @@ void print_array (int arr[],int n){
 }
 void bubble_sort (int arr[],int n){
     int i = 0, j =0, pass = n, temp;
-    for(i = 0; i < n-1; i++){
-        for(j = 0; j < n-i-1; j++){
-            if (arr[i] > arr[j+1])
-            temp = arr[j];
-            arr[j] = arr[j+1];
-            arr [j +1] = temp;
+    for (i = 0; i < n - 1; i++) {
+        for (j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                printf("\nSwapping %d and %d\n", arr[j], arr[j + 1]);
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+                printf("\n i = %d, %d  %d\n", i, arr[j], arr[j + 1]);
+            }
         }
     }
 }
